@@ -26,7 +26,7 @@ for n=1:fencengshu
     part=part.*exp(1i*2*pi*B);
     f=300+n*5;
 
-    holo=ASMshift('cut','forward','limit',part,1,f,pitch,lambda);
+    holo=ASM('cut','forward','limit',part,1,f,pitch,lambda);
     quan2=quan2+holo;
     n
 end
