@@ -37,7 +37,7 @@ coss=acos(amp);
 quana=ang+coss;
 quanb=ang-coss;
 
-qipan=zeros(1024,1024);
+qipan=zeros(1080,1920);
 for i=1:1080
     for j=1:1920 
        if(mod(i+j,2)==0)
